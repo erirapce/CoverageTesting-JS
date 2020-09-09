@@ -4,6 +4,7 @@
   "description": "Gilded Rose kata in JavaScript with Jest",
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage",
     "lint": "eslint"
   },
   "repository": {
@@ -15,5 +16,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "jest": "^26.4.2"
+  },
+  "jest": {
+    "verbose": true
   }
 }
