@@ -1,0 +1,19 @@
+{
+  "name": "lab05-js-gilded-rose-kata",
+  "version": "1.0.1",
+  "description": "Gilded Rose kata in JavaScript with Jest",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gl-imi.f4.htw-berlin.de/info3-code-stubs-and-samples/lab05-js-gilded-rose-kata"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "jest": "^26.4.2"
+  }
+}
