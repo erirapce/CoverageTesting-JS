@@ -1,8 +1,8 @@
 const {Shop, Item} = require("../lib/gildedRose");
 
-describe("Gilded Rose", function() {
-	test("should foo", function() {
-		const gildedRose = new Shop([new Item("foo", 0, 0)]);
+describe("a group of tests", () => {
+	test("should do sth", () => {
+		const gildedRose = new Shop([new Item("item name", 0, 0)]);
 		const items = gildedRose.updateQuality();
 		expect(items[0].name).toBe("fixme");
 	});

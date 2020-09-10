@@ -1,12 +1,6 @@
 # Gilded Rose Refactoring Kata
 This is the Gilded Rose Kata in JavaScript with Jest
 
-## How to do this Kata
-* Install dependencies: `npm ci`
-* Look at the ["Gilded Rose Requirements"](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/GildedRoseRequirements.txt) which explains what the code is for.
-* Write tests for the existing code.
-* Taking small steps, refactor the existing code.
-
 ## Credits
 This Kata was originally created by Terry Hughes (http://twitter.com/TerryHughes). It is already on GitHub [here](https://github.com/NotMyself/GildedRose). See also [Bobby Johnson's description of the kata](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
