@@ -6,4 +6,4 @@ This Kata was originally created by Terry Hughes (http://twitter.com/TerryHughes
 
 Emily Bache translated the original Kata from C# to [JavaScript](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/js-jest). When doing so she "slightly changed the starting position. This means \[she has\] actually done a small amount of refactoring already compared with the original form of the kata, and made it easier to get going with writing tests by giving you one failing unit test to start with."
 # CoverageTestin-JS
-# testing with 'npm run coverage'
+Testing with 'npm run coverage'.
