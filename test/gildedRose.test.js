@@ -1,15 +1,16 @@
 const {Shop, Item} = require("../lib/gildedRose");
 
-const gildedRose = new Shop([new Item("Sulfuras, Hand of Ragnaros", 3, 8),//first Item
-									new Item("Love", 0, 0),//second Item
-									new Item("Backstage passes to a TAFKAL80ETC concert", 0, 0),//third Item
-									new Item("Love", 0, 2),//fourth Item
-									new Item("Sulfuras, Hand of Ragnaros", -1, 0),//fifth Item
-									new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),//sixth Item
-									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 49),//seventh Item
-									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 50),//eighth Item
-									new Item("Aged Brie", 0, 2),//ninth Item
-									new Item("Aged Brie", 0, 49)//tenth Item
+const gildedRose = new Shop([
+	new Item("Sulfuras, Hand of Ragnaros", 3, 8),//first Item
+	new Item("Love", 0, 0),//second Item
+	new Item("Backstage passes to a TAFKAL80ETC concert", 0, 0),//third Item
+	new Item("Love", 0, 2),//fourth Item
+	new Item("Sulfuras, Hand of Ragnaros", -1, 0),//fifth Item
+	new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),//sixth Item
+	new Item("Backstage passes to a TAFKAL80ETC concert", 11, 49),//seventh Item
+	new Item("Backstage passes to a TAFKAL80ETC concert", 11, 50),//eighth Item
+	new Item("Aged Brie", 0, 2),//ninth Item
+	new Item("Aged Brie", 0, 49)//tenth Item
 								]);
 
 const items = gildedRose.updateQuality();
