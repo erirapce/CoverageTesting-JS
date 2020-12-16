@@ -5,11 +5,11 @@ const gildedRose = new Shop([new Item("Sulfuras, Hand of Ragnaros", 3, 8),			//f
 									new Item("Backstage passes to a TAFKAL80ETC concert", 0, 0),	//third Item
 									new Item("Love", 0, 2),																				//fourth Item
 									new Item("Sulfuras, Hand of Ragnaros", -1, 0),								//fifth Item
-									new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
-									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 49),
-									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 50),
-									new Item("Aged Brie", 0, 2),
-									new Item("Aged Brie", 0, 49)
+									new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),	//sixth Item
+									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 49),//seventh Item
+									new Item("Backstage passes to a TAFKAL80ETC concert", 11, 50),//eighth Item
+									new Item("Aged Brie", 0, 2),																	//ninth Item
+									new Item("Aged Brie", 0, 49)																	//tenth Item
 								]);
 
 const items = gildedRose.updateQuality();
@@ -40,19 +40,19 @@ describe.each([
 	[items[4].sellIn, -1],	//fifth Item
 	[items[4].quality, 0],
 
-	[items[5].sellIn, 4],
+	[items[5].sellIn, 4],		//sixth Item
 	[items[5].quality, 50],
 
-	[items[6].sellIn, 10],
+	[items[6].sellIn, 10],	//seventh Item
 	[items[6].quality, 50],
 
-	[items[7].sellIn, 10],
+	[items[7].sellIn, 10],	//eighth Item
 	[items[7].quality, 50],
 
-	[items[8].sellIn, -1],
+	[items[8].sellIn, -1],	//ninth Item
 	[items[8].quality, 4],
 
-	[items[9].sellIn, -1],
+	[items[9].sellIn, -1],	//tenth Item
 	[items[9].quality, 50]
 ])(".updateQuality", (a, expected) => {
 
@@ -120,7 +120,7 @@ describe.each([
 		expect(a).toBe(expected);
 	});
 
-	test("Aged Brie. sellIn", () => {
+	test("Aged Brie. sellIn", () => {																							//ninth Item
 		expect(a).toBe(expected);
 	});
 
@@ -128,7 +128,7 @@ describe.each([
 		expect(a).toBe(expected);
 	});
 
-	test("Aged Brie. sellIn", () => {
+	test("Aged Brie. sellIn", () => {																							//tenth Item
 		expect(a).toBe(expected);
 	});
 
